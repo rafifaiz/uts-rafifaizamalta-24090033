@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Secure Access</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-illustration-side">
+            
+        </div>
+
+        <div class="login-form-side">
+            <div class="login-form-wrapper">
+                <h1>Welcome Back!</h1>
+                <p>Silakan masukkan kredensial Anda untuk melanjutkan.</p>
+                <div id="error-message" class="error-message"></div>
+                
+                <form id="loginForm">
+                    <div class="input-group">
+                        <span class="icon">@</span>
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-group">
+                        <span class="icon">🔑</span>
+                        <input type="password" id="password" placeholder="Password" required>]
+                    </div>
+                    
+                    <a href="#" class="forgot-password-link">Forgot Password?</a>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">Login</button>
+                </form>
+
+                <div class="or-separator">OR</div>
+
+                <div class="social-login-group">
+                    <button class="btn btn-social btn-google">G Google</button>
+                    <button class="btn btn-social btn-facebook">f Facebook</button>
+                </div>
+
+                <p class="signup-link">Don't have an account? <a href="#">Sign Up</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
