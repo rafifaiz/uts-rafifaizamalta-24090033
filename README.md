@@ -12,7 +12,7 @@
 Berikut adalah tautan menuju kode sumber dan demo langsung dari aplikasi ini:
 
 * **Link GitHub Repository (Source Code):**
-    `[]`
+    `[https://rafifaiz.github.io/uts-rafifaizamalta-24090033/]`
 
 * **Link GitHub Pages (Live Demo):**
     https://rafifaiz.github.io/uts-rafifaizamalta-24090033/
